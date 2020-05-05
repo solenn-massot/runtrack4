@@ -41,11 +41,19 @@
             <label for="voyage">Voyages</label>
             <input type="checkbox" name="sport" />
             <label for="sport">Sport</label>
-            <input type="checkbox" name="lecture"/>
+            <input type="checkbox" name="lecture" />
             <label for="lecture">Lecture</label>
             <input type="submit" />
         </form>
     </main>
+    <footer>
+        <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="index.php">Inscription</a></li>
+            <li><a href="index.php">Connexion</a></li>
+            <li><a href="index.php">Recherche</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
