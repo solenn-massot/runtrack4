@@ -18,6 +18,7 @@
         </nav>
     </header>
     <main>
+    <section>
         <form action="index.php">
             <label for="civilité">Civilité:</label>
             <input type="radio" name="civilité" value="Monsieur" />
@@ -47,6 +48,7 @@
             <label for="lecture">Lecture</label>
             <input type="submit" />
         </form>
+    </section>
     </main>
     <footer>
         <ul>

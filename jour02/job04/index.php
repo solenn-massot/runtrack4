@@ -6,14 +6,13 @@
     <title>Accueil</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 
 <body>
     <header>
         <nav class="nav-wrapper deep-purple lighten-1">
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="index.php">Inscription</a></li>
                 <li><a href="index.php">Connexion</a></li>
@@ -22,6 +21,7 @@
         </nav>
     </header>
     <main>
+        <section>
         <div class="row">
             <h1>Merci de remplir ce formulaire</h1>
             <form action="index.php" class="col s12">
@@ -102,6 +102,7 @@
                 </button>
             </form>
         </div>
+</section>
     </main>
     <footer class="page-footer deep-purple ">
         <div class="container">
@@ -127,6 +128,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
