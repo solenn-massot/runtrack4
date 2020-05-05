@@ -47,14 +47,30 @@
             <input type="submit" />
         </form>
     </main>
-    <footer>
-        <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="index.php">Inscription</a></li>
-            <li><a href="index.php">Connexion</a></li>
-            <li><a href="index.php">Recherche</a></li>
-        </ul>
-    </footer>
+    <footer class="page-footer deep-purple ">
+    <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Ceci est un footer</h5>
+                
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="index.php">Accueil</a></li>
+                  <li><a class="grey-text text-lighten-3" href="index.php">Inscription</a></li>
+                  <li><a class="grey-text text-lighten-3" href="index.php">Connexion</a></li>
+                  <li><a class="grey-text text-lighten-3" href="index.php">Recherche</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright deep-purple darken-2">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
 </body>
 
 </html>
