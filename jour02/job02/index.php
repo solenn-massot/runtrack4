@@ -29,6 +29,8 @@
             <input type="text" name="name" />
             <label for="firstname">Votre prénom</label>
             <input type="text" name="firstname" />
+            <input type="email" id="email" />
+                    <label for="email">Votre adresse mail</label>
             <label for="adress">Votre adresse</label>
             <input type="text" name="adress" />
             <label for="password">Votre mot de passe</label>

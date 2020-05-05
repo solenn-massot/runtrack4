@@ -30,6 +30,8 @@
             <input type="text" name="firstname" />
             <label for="adress">Votre adresse</label>
             <input type="text" name="adress" />
+            <input type="email" id="email" />
+                    <label for="email">Votre adresse mail</label>
             <label for="password">Votre mot de passe</label>
             <input type="password" name="password" />
             <label for="pass">Confimer votre mot de passe</label>
