@@ -98,18 +98,21 @@
                 </div>
             </div>
             <div class="col-1 ml-n5">
-                <ul class="list-group">
-                    <li class="list-group-item active">Limbes</li>
-                    <li class="list-group-item">Luxure</li>
-                    <li class="list-group-item">Gourmandise</li>
-                    <li class="list-group-item">Avarice</li>
-                    <li class="list-group-item">Colère</li>
-                    <li class="list-group-item">Hérésie</li>
-                    <li class="list-group-item">Violence</li>
-                    <li class="list-group-item">Ruse et Tromperie</li>
-                    <li class="list-group-item">Trahison</li>
-                    <li class="list-group-item">Internet Explorer</li>
-                </ul>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Limbes</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Luxure</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Gourmandise</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Avarice</a>
+
+                    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Colère</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Hérésie</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Violence</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Ruse et Tromperie</a>
+                    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Trahison</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Internet Explorer</a>
+                </div>
+            </div>
+            </div>
             </div>
 
         </section>
@@ -172,20 +175,20 @@
 
 
                 <div class="col-2 align-self-end">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input id="email" type="email" class="form-control" aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" id="mdp" class="form-control">
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input id="email" type="email" class="form-control" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" id="mdp" class="form-control">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
                 </div>
             </div>
 
