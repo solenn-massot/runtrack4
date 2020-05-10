@@ -1,0 +1,103 @@
+/*
+code couleur La Plateforme_
+bleu clair : #88c1d0
+jaune : #ffca4b
+bleu foncé : #275fa0
+noir : #000000
+*/
+#auth{
+    padding-bottom : 2%;
+}
+.bk-s{
+    background-color: #88c1d0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.calendar
+{
+    background:#fff;
+    border-radius:4px;
+    color:#222629;
+    overflow:hidden;
+    width : 99%;
+}
+
+.calendar .header
+{
+    background:#275fa0;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+
+.calendar .month
+{
+    display:inline-block;
+    font-weight:bold;
+    color: white;
+}
+
+.calendar button
+{
+    background:none;
+    color:inherit;
+    cursor:pointer;
+    font-family:Consolas;
+    font-size:1.75rem;
+    height:100%;
+    padding:0 15px;
+    border:0px ;
+    transition:color 0.2s ease;
+}
+
+.calendar button:hover
+{
+    color:#88c1d0;
+}
+
+.calendar button:first-child
+{
+    float:left;
+}
+
+.calendar button:last-child
+{
+    float:right;
+}
+
+.calendar .cell
+{
+    background:#fff;
+    color:#88c1d0;
+    box-sizing:border-box;
+    display:inline-block;
+    padding:10px 0;
+    text-align:center;
+    width:calc(100% / 7);
+    transition:all 0.2s ease;
+}
+
+.calendar .cell:hover
+{
+	background:#ffca4b;
+	color:white;
+	cursor:default;
+}
+.calendar .day
+{
+    font-size:.8rem;
+    padding:8px 0;
+}
+
+.calendar .day, .calendar .today
+{
+    background:#88c1d0;
+    color:#fff;
+}
